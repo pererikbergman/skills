@@ -1,4 +1,4 @@
-# public
+# skills
 
 A collection of modular, self-contained AI agent skills. Each skill is a single folder with a `SKILL.md` file.
 
@@ -11,13 +11,13 @@ Pick one route. Installing both creates duplicate skills.
 Interactive picker:
 
 ```bash
-npx skills@latest add <owner>/public
+npx skills@latest add pererikbergman/skills
 ```
 
 Specific skill:
 
 ```bash
-npx skills@latest add <owner>/public/<skill-name>
+npx skills@latest add pererikbergman/skills/<skill-name>
 ```
 
 ### Option 2: Claude Code plugin (read-only bundle)
@@ -25,13 +25,13 @@ npx skills@latest add <owner>/public/<skill-name>
 From the GitHub marketplace manifest:
 
 ```bash
-claude plugin marketplace add <owner>/public && claude plugin install public@<owner>
+claude plugin marketplace add pererikbergman/skills && claude plugin install skills@pererikbergman
 ```
 
 From the official Claude plugins directory:
 
 ```bash
-claude plugin install public@claude-plugins-official
+claude plugin install skills@claude-plugins-official
 ```
 
 ## Repository Structure

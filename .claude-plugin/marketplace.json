@@ -1,7 +1,7 @@
 {
-  "name": "<owner>",
+  "name": "pererikbergman",
   "owner": {
-    "name": "<owner>"
+    "name": "pererikbergman"
   },
   "metadata": {
     "description": "Reusable AI agent skills",
@@ -9,7 +9,7 @@
   },
   "plugins": [
     {
-      "name": "public",
+      "name": "skills",
       "source": "./",
       "description": "Reusable AI agent skills"
     }
