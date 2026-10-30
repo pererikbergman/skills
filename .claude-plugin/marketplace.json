@@ -1,0 +1,17 @@
+{
+  "name": "<owner>",
+  "owner": {
+    "name": "<owner>"
+  },
+  "metadata": {
+    "description": "Reusable AI agent skills",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "public",
+      "source": "./",
+      "description": "Reusable AI agent skills"
+    }
+  ]
+}
